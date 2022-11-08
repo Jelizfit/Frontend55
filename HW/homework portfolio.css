@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+    min-height: 100px;
+    background-color: #ebcfb5;
+}
+.logo{
+    color: #4f000b;
+    padding: 30px 30px;
+}
+section {
+    float:center;
+    min-height: 1080px;
+    margin: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: white;
+}
+div{
+    margin-top: 0;
+    padding-top: 0;
+}
+img {
+    width: 20%;
+    border-radius: 10%;
+    border:solid;
+    border-width: 3px;
+    border-color: #4f000b;
+    float: left;   
+}
+.about {
+margin: 30px;
+margin-top: 0;
+}

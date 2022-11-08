@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('../img/BANNER-NUEVOS-2660X300.3.png');
+    position: relative;
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height: 150px;
+}
+
+.menu-btn {
+    background-color:transparent;
+    color:white;
+    width: 60px;
+    height: 80px;
+    size: 10px ;
+    position: absolute;
+    margin-top: 80px;
+    font-size:30px;
+    padding:0;
+    border:none;
+    
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration:none;
+}
+
+.category {
+    font-family:'Oswald', sans-serif;
+}
+
+.personal {
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(180, 35, 35, 0.786);
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* min-width: 200px; */
+}
+
+.about-btn {
+    display:block;
+    position: absolute;
+    border:none;
+    background-color:transparent;
+    width: 150px;
+    font-size: medium;
+    text-align: left;
+}
+
+.about-ifbb {
+    position:absolute;
+    margin-left: 135px;
+    display: none;
+    border-radius: 5px;
+    background-color: rgba(180, 35, 35, 0.786);
+}
+
+.about-ifbb a {
+    width: 100px;
+}
+
+.about-btn a{
+    color:white;
+    text-decoration-style: none;
+}
+
+.drop-content a{
+    font-family: 'Oswald', sans-serif;
+color: white;
+text-decoration-style: none;
+padding: 10px;
+display: block;
+}
+
+.about-ifbb:hover .about-btm{
+    display: block;
+    position: absolute;
+}
+
+.dropdown2:hover .about-ifbb{
+    display: block;
+    margin-left: 135px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.menu-btn:hover .drop-content{
+    display: block;
+    position: absolute;
+}
+
+.dropdown:hover .drop-content {
+    display: block;
+    margin-top: 150px;
+}
+
+footer {
+    min-height: 100px;
+    background-color: rgba(180, 35, 35, 0.786);
+    font-family:'Oswald', sans-serif;
+    color:white;
+    text-align: center;
+}
+
+.footer2{
+min-height: 30px;
+background-color: rgba(125, 0, 0, 0.634)
+}
+.f2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-align: center;
+    padding: 6px;
+    color:white
+}
+h1 {
+    padding-top: 10px;
+}
+h2 a{
+    color: white;
+    padding-left: 20px;
+}
+
+
+    

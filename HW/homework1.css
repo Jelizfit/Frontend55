@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin:3px;
+    padding: 5px 10px;
+    border: solid;
+    background-color:#fcffe2;
+    border-radius:55%;
+
+}
+li2{
+    margin:3px;
+    padding: 0
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/446/542/363/adriano-celentano-black-white-hat-celebrity-wallpaper-preview.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:right;
+}
+a:link {
+    color: black;
+}
+a:hover{
+    color: darkolivegreen;
+
+}

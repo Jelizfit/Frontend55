@@ -1,0 +1,35 @@
+.container {
+    color:dodgerblue;
+    text-align: justify;
+    /* vqravnivanie teksta po levu/pravy/centru */
+    text-align-last: right;
+    /* direction:rtl;  */
+}
+span {
+    vertical-align: super;
+}
+h1 {
+    text-align: center;
+    /* unicode-bidi: bidi-override; */
+}
+
+p {
+    /* text-decoration-line:overline;
+    text-decoration-color: brown;
+    text-decoration-style:dotted;
+    text-decoration-thickness: 5px;
+    text-decoration: underline pink double 2px; */
+    /* text-transform: lowercase; */
+    text-indent: 40px ;
+    letter-spacing: -1px;
+    line-height: 16px;
+    word-spacing: 10px;
+    white-space: nowrap;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    text-align: center;
+    text-shadow: 2px -10px 2px pink, 2px -5px 2px blue
+}

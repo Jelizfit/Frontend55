@@ -1,0 +1,33 @@
+body {
+    height: 1500px;
+    background-image: url('http://picsum.photos/300');
+background-repeat: no-repeat;
+background-position:top left;
+background-size:contain;
+background-attachment: fixed;
+/* fiksacija kartinki v odnom meste */
+}
+body {
+    background: lightyellow url('http://picsum.photos/400') repeat-x fixed top  ;
+} 
+/* body {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-top: 2em;
+    font-size: 1em;
+}
+div {
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+} */
+/* section {
+width: 50%;
+height: 50%;
+background-color: blueviolet;
+} */
+
+

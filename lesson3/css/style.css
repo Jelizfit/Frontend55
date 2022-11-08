@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* html, body {
+    background-color: black;
+    color: red;
+}
+h1 {
+    color:red
+}
+
+.title {color: blue;
+}     */
+
+a:link 
+/* это ссылка которую еще не посещали */
+{
+color: yellow;
+}
+a:visited
+/* ссылка, по кторой уже проходили */
+{
+    color: red;
+}
+a:hover
+/* цвет ссылки при наведении курсора на нее */
+{
+    color:green;
+}
+a:active
+/* цвет текста при нажатии и удержании кнопки */
+{
+    color:blue
+}
+/* Лучше использовать только тэш а и тэг а-ховер */
+div p {
+color: red;
+}
+
+div > p
+/* клювик обозначает что действие относится только к болижайшим детям */
+{
+    background-color: pink;
+}
+
+div + p
+/* только те, что идут сразу после див */
+{
+    font-size: 46px;
+}
+div ~ p 
+/* все родственники */
+{
+    text-decoration: underline;
+}

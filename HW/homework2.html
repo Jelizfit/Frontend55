@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding Championship</title>
+    <link rel="stylesheet" href="homework2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body style="background-color:lightgray">
+    <header>
+        <div class="dropdown">
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i></button>
+            <script src="https://kit.fontawesome.com/728bafc6aa.js" crossorigin="anonymous"></script>
+            <div class="drop-content">
+                <div class="dropdown2">
+                    <button class="about-btn">
+                        <a href="#">ABOUT IFBB</a></button>
+                    <div class="about-ifbb">
+                        <a href="https://ifbb.com/message-from-the-president/">About as</a>
+                        <a href="https://ifbb.com/affiliation-register/">Affiliation</a>
+                        <a href="https://ifbb.com/contact/">Contact</a>
+                        <a href="https://ifbb.com/our-disciplines/">Our disciplines</a>
+                    </div>
+                </div>
+                <br>
+                <br><a href="https://ifbb.com/events/">EVENTS</a>
+                <a href="https://ifbb.com/competition-registration/">REGISTRATION</a>
+                <a href="https://ifbb.com/news/">NEWS</a>
+                <a href="https://ifbb-academy.com/">COURSES</a>
+                <a href="https://ifbb.com/anti-doping-rules/">ANTI-DOPING</a>
+                <a href="https://ifbbstreaming.com/">LIVE STREAMING</a>
+                <a href="https://ifbb.com/ifbb-faq/">IFBB FAQ</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="contaier"
+            style="width: 60%; margin-left:auto; margin-right:auto; background-color: white; padding: 20px 100px">
+
+            <form>
+                <h2 style="color:rgb(37, 37, 37)">Registration for the Estonian Bodybuilding Championship</h2>
+                <fieldset style="padding-left: 15px;">
+                    <legend class="personal">Personal data</legend>
+                    <br>
+                    <label for="first-name">First name*:</label>
+                    <input type="text" id="first-name" name="first-name" required> &nbsp
+                    <label for="last-name">Last name*:</label>
+                    <input type="text" id="last-name" name="last-name" required><br><br>
+                    <label for="gender">Gender:</label> &nbsp
+                    <label for="Male">Male:</label>
+                    <input type="radio" id="Male" name="gender" value="Male">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Female" name="gender" value="Female"><br> <br>
+                    <label for="date-of-birth">Date of birth:</label>
+                    <input type="date" id="date-of-birth" max="2022-10-28" name="date-of-birth"><br><br>
+                    <label for="id-code">Id code*:</label>
+                    <input type="text" id="id-code" name="id-code" placeholder="" maxlength="11" required><br><br>
+                    <label for="passport">Passport number*:</label>
+                    <input type="text" id="passport" name="passport" maxlength="10" required><br><br>
+                    <label for="tel">Tel.number:</label>
+                    <input type="tel" id="tel" name="tel" placeholder="+372" maxlength="13">
+                    <br><br>
+                </fieldset>
+                <br>
+                <label for="category" class="category">Category*:</label><br><br>
+                <input type="checkbox" id="mens-bb" name="mens-bb">
+                <label for="mens-bb">Men's Bodybuilding</label><br><br>
+                <input type="checkbox" id="classic-ph" name="classic-ph">
+                <label for="classic-ph">Classic Physique</label><br><br>
+                <input type="checkbox" id="mens-physique" name="mens-physique">
+                <label for="mens-physique">Men's Physique</label><br><br>
+                <input type="checkbox" id="womens-bikini-fitness" name="womens-bikini-fitness">
+                <label for="womens-bikini-fitness">Women's Bikini Fitness </label><br><br>
+                <input type="checkbox" name="womens-bodyfitness" id="womens-bodyfitness">
+                <label for="womens-bodyfitness">Womens Bodyfitness</label><br><br>
+                <input type="checkbox" id="womens-welness" name="womens-welness">
+                <label for="womens-welness">Women's Welness</label><br><br>
+                <input type="checkbox" id="Womens-artistic" name="Womens-artistic">
+                <label for="Womens-artistic">Women's Artistic Fitness</label><br><br><br>
+                <label for="Fitnessclub">Fitness club*:</label>
+                <select name="fitnessclub" id="fitness-club">Fitness
+                    <option value="empty"></option>
+                    <option value="24/7fitness">24-7fitness</option>
+                    <option value="MyFitness">MyFitness</option>
+                    <option value="gym!">gym!</option>
+                    <option value="Idakeskus-sport">Idakeskus Sport</option>
+                    <option value="HCgym">HC gym</option>
+                    <option value="TallinkFitness">Tallink Fitness</option>
+                    <option value="SpartaSportsClub">Sparta Sports Club</option>
+                    <option value="Another">Another club</option>
+                </select>
+                <br><br>
+                <label for="anotherclub">Another club:</label>
+                <input type="text" id="anotherclub" name="anotherclub"><br><br>
+                <label for="license:">License number*:</label>
+                <input type="text" id="license" name="license" required>
+                <br><br>
+                <label for="trainer">Trainer name*:</label>
+                <input type="trainer" name="trainer" id="trainer" required><br><br>
+                <input type="Submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h1>FOLLOW US:</h1>
+        <h2>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-vimeo"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </h2>
+    </footer>
+    <footer class="footer2">
+        <p class="f2">© 2022 IFBB | International Federation of Bodybuilding and Fitness | Política de Privacidad |
+            Política de Cookies</p>
+    </footer>
+</body>
+
+</html>

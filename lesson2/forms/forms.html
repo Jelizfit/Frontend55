@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form method="get" target="self" autocomplete="on" novalidate>
+    <fieldset>
+        <legend>User info</legend>
+        <label for="user-name"> User name: </label>
+        <input type="text" id="user-name" name="user-name" placeholder="User Name" list="names" autofocus><br>
+        <!-- id nuzen dlja label, name nuzen dlja backenda -->
+        <!-- list otnositsja k datalist kotor6i namnogo nize, dlja dop.podskazok poljzovatelju -->
+        <label for="user-email">User email: </label>
+        <input type="email" id="user-email" name="user-email" value="jeliz@gmail.com" readonly><br>
+        <label for="user-pass">Password:</label>
+        <input type="password" id="user-pass" name="user-pass" maxlength="10"><br>
+    </fieldset>
+        <label for="HTML">HTML</label>
+        <input type="radio" id="html" name="prog-lang" value="html" checked > <br>
+        <label for="css">CSS</label>
+        <input type="radio" id="css" name="prog-lang" value="css"> <br>
+        <label for="js">JavaScript</label>
+        <input type="radio" id="js" name="prog-lang" value="js"> <br>
+        <!-- name ставим одинаковый, чтобы можно было нажать только одну кнопку -->
+        <!-- value передает инфо в бэкэнд, что важно! -->
+
+        <label for="news" >Newsletter?</label>
+        <input type="checkbox" id="news" name="news" value="true" required><br>
+        
+
+        <select name="cars" id="cars" size="4" multiple>
+            <!-- size показывает сколько полей будет отображаться за раз
+            multiple - задерживая ctrl можно выделить сразу несколько строчек -->
+            <optgroup label="German cars"
+            <option value="bmw">BMW</option>
+            <option value="mb">Mercedes-Benz</option>
+            <option value="audi">Audi</option></optgroup>
+            <optgroup label="Japanese cars">
+            <option value="honda">Honda</option>
+            <option value="toyota">Toyota</option>
+            <option value="subaru">Subaru</option></optgroup>
+            <!-- value idet v backend -->
+        </select><br>
+
+        <textarea name="message" id="message" cols="30" rows="10" style="resize:vertical;" maxlength="100"></textarea><br>
+
+        <button type="button" onclick="alert('Hello World');">Alert me!</button><br>
+        <datalist id="names">
+            <option value="Roman">Roman</option>
+            <option value="Jack">Jack</option>
+            <option value="Taavi">Taavi</option>
+        </datalist>
+        
+        <input type="color"> <br>
+        <input type="date" min="2022-10-28"> <!--YYY-MM-DD--> <br>
+        <input type="datetime-local"><br>
+        <input type="file"> <br>
+        <input type="hidden" name="setting" value="true"> <br> <!--ne sovsem ponjala, ee ne vidno na stranice, no vidno v poiskovoi stroke i peredajot zapros v backend- a net, ponjala, naprimer cv.ee zadano 4to 20 variantov rabot vidno na stranice, no menjatj eto zna4enie nelzja, sledovateljno v poiskovoi napisano 4to 20, a v samoj stranice net-->
+        <input type="image" src="http://picsum.photos/32/32"><br>
+        <input type="number" min="0" max="5" placeholder="count"> <br>
+        <input type="range" min="0" max="15" > <br>
+        <input type="search" placeholder="search"> <br>
+        <input type="tel" placeholder="tel"><br>
+        <input type="url" placeholder="URL"><br>
+        <input type="time"> <br>
+        <input type="week"> <br>
+        <br>
+        <input type="submit" value="Click me!">
+        <!-- кнопка отправки заполненной формы -->
+        <input type="reset" value="Clear">
+        <!-- кнопка сброса всего заполнения -->
+   </form>
+</body>
+</html>

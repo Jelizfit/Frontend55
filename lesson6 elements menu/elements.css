@@ -1,0 +1,61 @@
+.btn-subscribe {
+    display: inline-block;
+    background-color: none;
+    border: 3px solid dodgerblue;
+    color: dodgerblue;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.btn-subscribe {
+    color: white;
+    background-color: dodgerblue;
+}
+.list-item {
+    background-color: slategray;
+    list-style-position: inside;
+    padding: 0;
+    list-style-image: url('../../img/check-mark-3279.png');
+}
+.list-item li:nth-child(odd){
+    background-color:rosybrown;
+
+}
+.list-item li:nth-child(even){
+    background-color:skyblue;
+}
+.drop-btn {
+    background-color:tomato;
+    color: white;
+    font-size: 32px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+}
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: tomato;
+    min-width: 200px;
+}
+.drop-content a {
+    background-color:tomato;
+    color: white;
+    font-size: 32px;
+    padding: 10px 20px;
+    border: none;
+    display: block;
+
+}
+.drop-btn:hover .drop-content{
+    display: block;
+}
+.dropdown:hover .drop-content {
+    display: block;
+
+}
