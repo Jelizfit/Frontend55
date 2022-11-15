@@ -1,0 +1,52 @@
+html, body {
+    background-color: #3f3047;
+}
+.container1 {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.container1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 200%;
+    color: #eee7e9;
+    text-shadow: 0 0 2px #3f3047;
+}
+
+.container1 > div:nth-child(1),
+.container1 > div:nth-child(5),
+.container1 > div:nth-child(9) {
+    background-color: #5171a5;
+}
+.container1 > div:nth-child(2),
+.container1 > div:nth-child(6),
+.container1 > div:nth-child(10) {
+    background-color: #9bc995;
+}
+.container1 > div:nth-child(3),
+.container1 > div:nth-child(7),
+.container1 > div:nth-child(11) {
+    background-color: #eef36a;
+}
+.container1 > div:nth-child(4),
+.container1 > div:nth-child(8),
+.container1 > div:nth-child(12) {
+    background-color: #dd99bb;
+}
+
+.container1 {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) ; */
+    /* estj ewe auto-fill, vmesto auto-fit. no nemnogo poinomu raspolagaet elementq - autofill menee rastjagivaet elementq */
+    /* grid-template-rows: repeat(2, 100px) ; */
+    /* grid-template: 100px 100px/ 100px auto 100px; -shortcut */
+    grid-template: repeat(2, 100px) / repeat(3, 100px);
+    justify-content: space-between;
+    align-content: space-between;
+    grid-auto-rows: 100px;
+}
